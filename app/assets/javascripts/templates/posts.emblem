@@ -1,0 +1,5 @@
+each post in controller
+  h1
+    post.title
+  p
+    post.body

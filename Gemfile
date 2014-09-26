@@ -14,6 +14,7 @@ gem 'emblem-rails'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem "font-awesome-rails"
+gem "faker", require: false
 group :development do
     gem 'guard-livereload', require: false
 end

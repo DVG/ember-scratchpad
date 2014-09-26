@@ -2,5 +2,5 @@
 
 App.Router.map ()->
   @route "home", path: "/"
-  # @resource('posts')
+  @resource('posts')
 

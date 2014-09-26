@@ -2,9 +2,9 @@
   nav.navbar.navbar-default role="navigation"
     .container-fluid
       .navbar-header
-        a.navbar-brand Ember Scratchpad
+        link-to "home" class="navbar-brand" | Ember Scratchpad
       .collapse.navbar-collapse
         ul.nav.navbar-nav
           li
-            a Link 1
+            link-to "posts" | Posts
   = outlet
